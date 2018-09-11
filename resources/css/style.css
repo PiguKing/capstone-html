@@ -1,0 +1,55 @@
+/* Universal */
+body, html, * {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+}
+
+/* Header */
+.header {
+  height: 64px;
+  margin: 0px 24px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .logo-container {
+  display: flex;
+  align-items: center;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.logo-image-container img {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+
+#colmar {
+  color: hsl(200, 0%, 20%);
+}
+
+#academy {
+  color: hsl(200, 0%, 60%);
+}
+
+.header nav ul{
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  color: hsl(200, 0%, 22%);
+}
+
+nav ul li {
+  padding-right: 16px;
+}
+
+nav ul li:last-child {
+  padding-right: 0px;
+}
