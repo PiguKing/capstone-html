@@ -6,6 +6,7 @@ body, html, * {
 
 html, body {
   width: 100%;
+  font-size: 16px;
 }
 
 /* Header */
@@ -52,4 +53,25 @@ nav ul li {
 
 nav ul li:last-child {
   padding-right: 0px;
+}
+
+/* Banner */
+
+.banner {
+  background-color: hsl(200, 0%, 80%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-image-container {
+  padding: 32px 24px;
+  /*width: 60%;*/
+}
+
+.banner-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
