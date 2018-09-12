@@ -231,12 +231,11 @@ nav ul li:last-child {
   display: flex;
 }
 
+.courses-image-container {
+  width: 100%;
+}
+
 .courses-image-container img {
   width: 100%;
   height: auto;
-}
-
-/*need to fix here*/
-.computer-art .courses-image-container img {
-  width: 87%;
 }
