@@ -56,7 +56,7 @@ nav ul li:last-child {
 /* Banner */
 
 .banner {
-  background-color: hsl(200, 0%, 80%);
+  background-color: hsl(200, 0%, 90%);
   display: flex;
 }
 
@@ -87,15 +87,15 @@ nav ul li:last-child {
   color: hsl(200, 0%, 20%);
   font-size: 4.5rem;
   font-weight: bold;
-  padding-bottom: 20px;
+  padding-bottom: 2rem;
 }
 
 .banner-text-container h2 {
   width: 100%;
   color: hsl(200, 0%, 30%);
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
-  padding-bottom: 20px;
+  padding-bottom: 2rem;
 }
 
 .banner-text-container .button {
@@ -109,4 +109,134 @@ nav ul li:last-child {
   width: 100%;
   font-size: 2rem;
   text-align: center;
+}
+
+/* Overview */
+.overview {
+  display: flex;
+  align-items: center;
+}
+
+.row-left {
+  padding: 32px 24px;
+  width: 60%;
+}
+
+.row-left h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: hsl(200, 0%, 17%);
+}
+
+.row-left-image-container {
+  width: 100%;
+}
+
+.row-left-image-container img {
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+.row-left .quote {
+  margin: 24px 0px;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.row-left .author {
+  font-size: 1.2rem;
+}
+
+.row-right {
+  width: 40%;
+  padding: 10px 0px;
+  border-left: solid 1px hsl(200, 0%, 84%);
+}
+
+.row1, .row2, .row3 {
+  display: flex;
+  width: 100%;
+}
+
+.row1 {
+  margin-bottom: 5px;
+  border-bottom: solid 1px hsl(200, 0%, 84%);
+}
+
+.row2 {
+  border-top: solid 1px hsl(200, 0%, 84%);
+}
+
+.row3 {
+  background-color: hsl(200, 0%, 90%);
+}
+
+.row-image-container {
+  width: 35%;
+  padding: 16px 32px 16px 16px;
+}
+
+.row-image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.row-text {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.row-text h1 {
+  color: hsl(200, 0%, 30%);
+  font-size: 2.5rem;
+  font-weight: bold;
+  padding-bottom: 8px;
+}
+
+.row-text h2 {
+  color: hsl(200, 0%, 30%);
+  font-size: 1.5rem;
+  padding-bottom: 8px;
+}
+
+.row-text a {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+/* Courses */
+.courses {
+
+}
+
+.courses-row1 {
+  display: flex;
+}
+
+.courses-row1 .box {
+  margin: 32px 32px 32px 32px;
+}
+
+.courses-row1 .box:first-child {
+  margin-left: 72px;
+}
+
+.courses-row1 .box:last-child {
+  margin-right: 72px;
+}
+
+.courses-row2 {
+  display: flex;
+}
+
+.courses-image-container img {
+  width: 100%;
+  height: auto;
+}
+
+/*need to fix here*/
+.computer-art .courses-image-container img {
+  width: 87%;
 }
